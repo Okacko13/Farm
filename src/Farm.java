@@ -27,6 +27,34 @@ public class Farm {
 
     }
 
+    public void addFlower(Flower flower){
+        ArrayList<FlowerType> flowerTypes = new ArrayList<>();
+        double area = 10000;
+
+        for (Flower f: flowers) {
+            area = area - f.neededArea;
+            for (FlowerType fl:flowerTypes) {
+                if(){
+            }
+        }
+
+        if(flowerTypes.size() <= 5){
+            if(area- flower.neededArea > 0){
+                flowers.add(flower);
+            }
+        }else{
+
+        }
+
+        for (FlowerType f:flowerTypes) {
+            if(flower.flowerType == flowerTypes.get(f.ordinal())){
+
+            }
+        }
+
+    }
+
+
 
 
 }
